@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Project 52 Updates",
+    "description": "Displays the last 3 posts from Elijah Voigt's Project 52",
+    "version": "0.1",
+
+    "icons": {
+        "128": "128_icon.png"
+    },
+
+    "browser_action": {
+        "default_icon": "128_icon.png",
+        "default_popup": "main.html",
+        "default_title": "Project 52!"
+    },
+
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com/; object-src 'self'"
+}
